@@ -7,11 +7,12 @@
 
   }  
 
-ul{
+ul , .parrafo{
     list-style-type: none;
     display: flex;
-    gap: 18px;
+    gap: 32px;
     color: #e5e7eb;
+    font-size: 18px;
 }
 .header{
     display: flex;
@@ -24,3 +25,44 @@ ul{
     font-size: 24px;
 }
 
+.header-mid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0px
+}
+
+button{
+    max-width: 100px;
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    padding: 8px 0px 8px 0px;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    justify-content: flex-start;
+}
+
+.parrafo{
+    margin: 8px 0px 8px 0px;
+}
+.rec{
+    color: white;
+    width:700px;
+    height:250px;
+    border:1px solid grey;
+    background-color: grey;
+    text-align: center;
+}
