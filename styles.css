@@ -1,3 +1,7 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .container{
       background-color: #1F2937;
       margin: 0;
@@ -13,6 +17,11 @@ ul , .parrafo{
     gap: 32px;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
 }
 .header{
     display: flex;
@@ -64,5 +73,115 @@ button{
     height:250px;
     border:1px solid grey;
     background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rec1{
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 12px;
+}
+
+h2{
     text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 48px
+}
+
+.rectangulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.uno{
+    max-width: 150px;
+}
+
+.rectangulo p{
+    text-align: center;
+    color: grey;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    margin-top: 72px;    
+    display: flex;
+    flex-direction: column;
+}
+
+.frase{
+    margin: 72px 526px 72px 526px;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color:#1F2937;
+    margin-bottom: 0;
+}
+
+.autor{
+    font-size: 24px;
+    font-style: bold;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+    padding-right: 16px;
+}
+
+.call{
+    background-color:white;
+    margin-top: 72px;    
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.azul{
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin-left: 10px;
+    padding: 32px 150px 32px 150px;
+    margin: 48px 426px 72px 300px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time{
+    font-weight:bold;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.sign{
+    font-size: 14px;
+    margin-top: 0;
+}
+.boton{
+    border: 1px solid white;
+    padding: 5px 24px 5px 24px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #e5e7eb;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
